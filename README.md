@@ -61,16 +61,21 @@ The [`main.py`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%2
    - **GPT-3.5 Turbo**
       - **riemann_index.html**
       - **riemann_styles.css**
+      - [`Riemann 3.5 site`](https://html-preview.github.io/?url=https://github.com/Nick-Kurt-Butler/CrewAiMathBoard/blob/main/Riemann/gpt3_5_turbo/index.html")
    - **GPT-4o**
       - **riemann_index.html**
       - **riemann_styles.css**
+      - [`Riemann 4o site`](https://html-preview.github.io/?url=https://github.com/Nick-Kurt-Butler/CrewAiMathBoard/blob/main/Riemann/gpt4o/index.html")
 - **Collatz Conjecture Output**
    - **GPT-3.5 Turbo**
       - **collatz_index.html**
       - **collatz_styles.css**
+      - [`Collatz 3.5 site`](https://html-preview.github.io/?url=https://github.com/Nick-Kurt-Butler/CrewAiMathBoard/blob/main/Collatz/gpt3_5_turbo/index.html")
    - **GPT-4o**
       - **collatz_index.html**
       - **collatz_styles.css**
+      - [`Collatz 4o site`](https://html-preview.github.io/?url=https://github.com/Nick-Kurt-Butler/CrewAiMathBoard/blob/main/Collatz/gpt4o/index.html")
+
 
 ## Example Usage
 
