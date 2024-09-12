@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collatz Conjecture</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Collatz Conjecture</h1>
+        <p>One of the most fascinating unsolved problems in mathematics</p>
+    </header>
+
+    <main>
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>The Collatz Conjecture is one of the most famous unsolved problems in mathematics. It is also known as the "3n + 1 conjecture" or the "hailstone sequence." The conjecture involves sequences of integers in which each term is obtained from the previous term using the following rules:</p>
+            <ul>
+                <li>If the previous term is even, the next term is one half of the previous term.</li>
+                <li>If the previous term is odd, the next term is 3 times the previous term plus 1.</li>
+            </ul>
+            <p>The conjecture posits that no matter what positive integer you start with, the sequence will always eventually reach the number 1.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Collatz-graph-20.svg" alt="Directed Graph Showing the Orbits">
+        </section>
+
+        <section id="definition">
+            <h2>Definition and Explanation</h2>
+            <p>**Formal Definition:**</p>
+            <pre><code>
+f(n) = {
+    3n + 1 if n is odd
+    n/2 if n is even
+}
+            </code></pre>
+            <p>Given any integer m, define a sequence such that a₁ = m and for i ≥ 1, aᵢ₊₁ = f(aᵢ).</p>
+            <p>**Example**: Starting with the number 17:</p>
+            <ol>
+                <li>17 is odd, so multiply by 3 and add 1: 17 × 3 + 1 = 52</li>
+                <li>52 is even, so divide by 2: 52 / 2 = 26</li>
+                <li>26 is even, so divide by 2: 26 / 2 = 13</li>
+                <li>13 is odd, so multiply by 3 and add 1: 13 × 3 + 1 = 40</li>
+                <li>Continue in this manner until reaching 1.</li>
+            </ol>
+            <p>The sequence for 17 is: 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1.</p>
+        </section>
+
+        <section id="history">
+            <h2>History of the Collatz Conjecture</h2>
+            <p>The Collatz Conjecture was first introduced by Lothar Collatz in 1937. Despite its simple definition, it has puzzled mathematicians for decades. The problem gained broader recognition in the 1970s and has since been a popular topic for mathematical research and discussion.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Lothar_Collatz.jpg/800px-Lothar_Collatz.jpg" alt="Lothar Collatz">
+        </section>
+
+        <section id="current-state">
+            <h2>Current State of the Problem</h2>
+            <p>The Collatz Conjecture is deceptively simple yet incredibly difficult to prove. It is easy to verify the conjecture for specific numbers using a computer, but proving it for all positive integers is another matter entirely. The primary challenge lies in the unpredictable behavior of the sequences, which makes it difficult to establish a general proof.</p>
+            <h3>Relevant Progress and Current Research</h3>
+            <ul>
+                <li>**Computational Efforts**: Extensive computational work has been done to verify the conjecture for very large numbers. As of now, the conjecture has been verified for all starting numbers up to 2⁶⁰.</li>
+                <li>**Mathematical Approaches**: Researchers have explored various mathematical techniques, including number theory, dynamical systems, and probabilistic methods, to tackle the problem. Despite these efforts, a general proof remains elusive.</li>
+                <li>**Notable Contributions**: Notable mathematicians such as Paul Erdős have contributed to the study of the Collatz Conjecture. Erdős famously stated, "Mathematics is not yet ripe enough for such problems."</li>
+            </ul>
+        </section>
+
+        <section id="future-work">
+            <h2>Potential Future Work</h2>
+            <p>Future research on the Collatz Conjecture may involve:</p>
+            <ul>
+                <li>**Advanced Computational Techniques**: Utilizing more powerful computers and algorithms to extend the range of verified numbers.</li>
+                <li>**New Mathematical Frameworks**: Developing new mathematical tools and frameworks that could provide deeper insights into the behavior of Collatz sequences.</li>
+                <li>**Interdisciplinary Approaches**: Combining insights from different areas of mathematics and computer science to approach the problem from new angles.</li>
+            </ul>
+        </section>
+
+        <section id="discussion-board">
+            <h2>Discussion Board</h2>
+            <div class="discussion-entry">
+                <p><strong>Independent Math Contributor 1:</strong> Have you considered using graph theory to represent Collatz sequences? Specifically, can we construct a directed graph where each node represents an integer and each edge represents the transition according to the Collatz rules? What insights might this graph-theoretical approach provide?</p>
+                <p><strong>Independent Math Contributor 2:</strong> Yes, representing each integer as a node in a directed graph is a unique idea...</p>
+            </div>
+            <div class="discussion-entry">
+                <p><strong>Independent Math Contributor 3:</strong> Have you explored using probabilistic methods to analyze the Collatz Conjecture? Specifically, can we use stochastic models to predict the behavior of large sequences? What kind of insights might we gain from a probabilistic approach?</p>
+                <p><strong>Independent Math Contributor 4:</strong> Yes, exploring probabilistic methods to analyze the Collatz Conjecture is an intriguing idea...</p>
+            </div>
+            <div class="discussion-entry">
+                <p><strong>Subject Matter Expert:</strong> Are there any advanced mathematical frameworks or tools, perhaps from fields like chaotic dynamics, ergodic theory, or algebraic structures, that have not been extensively applied to the Collatz Conjecture but might offer new insights?</p>
+                <p><strong>Subject Matter Expert Response:</strong> In exploring advanced mathematical frameworks or tools that could offer new insights into the Collatz Conjecture, several approaches can be considered...</p>
+            </div>
+            <!-- Add more discussion entries as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Collatz Conjecture Study. All rights reserved.</p>
+    </footer>
+</body>
+</html>
