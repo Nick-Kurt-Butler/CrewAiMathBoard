@@ -8,7 +8,7 @@ This project is designed to facilitate collaborative research on complex mathema
 
 ### 1. Tasks
 
-The [`tasks.py`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2FP3120851%2Fmath_board%2Ftasks.py%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/Users/P3120851/math_board/tasks.py") file defines various tasks that agents need to perform. Each task is associated with a specific role and has a detailed description and expected output.
+The `tasks.py` file defines various tasks that agents need to perform. Each task is associated with a specific role and has a detailed description and expected output.
 
 - **Research Task**: Conduct comprehensive research on the given problem.
 - **Subject Matter Expert Task**: Ensure the accuracy and clarity of the research.
@@ -17,11 +17,11 @@ The [`tasks.py`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%
 
 ### 2. Tools
 
-The [`tools.py`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2FP3120851%2Fmath_board%2Ftools.py%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/Users/P3120851/math_board/tools.py") file provides a set of tools that agents can use to perform their tasks. These tools include web search, finding similar webpages, getting webpage contents, and writing code to files.
+The `tools.py` file provides a set of tools that agents can use to perform their tasks. These tools include web search, finding similar webpages, getting webpage contents, and writing code to files.
 
 ### 3. Agents
 
-The [`agents.py`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2FP3120851%2Fmath_board%2Fagents.py%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/Users/P3120851/math_board/agents.py") file defines different types of agents, each with a specific role and set of tools. The agents include:
+The `agents.py` file defines different types of agents, each with a specific role and set of tools. The agents include:
 
 - **Research Specialist**
 - **Subject Matter Expert**
@@ -30,21 +30,7 @@ The [`agents.py`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A
 
 ### 4. Main Script
 
-The [`main.py`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2FP3120851%2Fmath_board%2Fmain.py%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/Users/P3120851/math_board/main.py") file is the entry point of the project. It initializes the agents and tasks, sets up the context for each task, and runs the process for a defined number of iterations.
-
-## How to Run
-
-1. **Install Dependencies**: Ensure you have all necessary dependencies installed. You can use [`pip`](command:_github.copilot.openSymbolFromReferences?%5B%22pip%22%2C%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2FP3120851%2Fmath_board%2Freadme.md%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2FP3120851%2Fmath_board%2Freadme.md%22%2C%22path%22%3A%22%2FUsers%2FP3120851%2Fmath_board%2Freadme.md%22%2C%22scheme%22%3A%22file%22%7D%2C%22pos%22%3A%7B%22line%22%3A36%2C%22character%22%3A96%7D%7D%5D%5D "Go to definition") to install them.
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-2. **Set Up Environment Variables**: Create a `.env` file with the necessary environment variables, such as [`EXA_API_KEY`](command:_github.copilot.openSymbolFromReferences?%5B%22EXA_API_KEY%22%2C%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2FP3120851%2Fmath_board%2Freadme.md%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2FP3120851%2Fmath_board%2Freadme.md%22%2C%22path%22%3A%22%2FUsers%2FP3120851%2Fmath_board%2Freadme.md%22%2C%22scheme%22%3A%22file%22%7D%2C%22pos%22%3A%7B%22line%22%3A41%2C%22character%22%3A109%7D%7D%5D%5D "Go to definition").
-
-3. **Run the Main Script**: Execute the main script to start the process.
-   ```sh
-   python main.py
-   ```
+The `main.py` file is the entry point of the project. It initializes the agents and tasks, sets up the context for each task, and runs the process for a defined number of iterations.
 
 ## File Descriptions
 
